@@ -6,6 +6,8 @@ const T = new Twit(config.twitter);
 
 const pusher = new Pusher(config.pusher);
 
+console.log("started");
+
 // Get tweets from the hashtags to track
 const stream = T.stream('statuses/filter', { track: config.hashtagsToTrack });
 
@@ -16,7 +18,7 @@ stream.on('tweet', (tweet) => {
     name: tweet.user.name, 
   };
 
-  //console.log(tweet);
+  console.log(tweet);
   console.log(JSON.stringify(message));
 
   pusher.trigger(config.channel, config.event, message);
