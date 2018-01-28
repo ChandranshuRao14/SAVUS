@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>461781765432-36g4ukuv8nna2814n5sdaf1ruv4njbmd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.461781765432-36g4ukuv8nna2814n5sdaf1ruv4njbmd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCqDdcdpUmgQrUBIR6lyd9l5INckG6rngg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>461781765432</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Savus.savus</string>
+	<key>PROJECT_ID</key>
+	<string>savus-5aeb4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>savus-5aeb4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:461781765432:ios:e61e75b1d7675f92</string>
+	<key>DATABASE_URL</key>
+	<string>https://savus-5aeb4.firebaseio.com</string>
+</dict>
+</plist>
