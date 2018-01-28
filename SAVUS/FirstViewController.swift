@@ -17,7 +17,7 @@ class FirstViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "Crisis Feed"
-        
+
         tableView.register(TweetCell.self, forCellReuseIdentifier: cellId)
         tableView.estimatedRowHeight = 100.0
         tableView.rowHeight = UITableViewAutomaticDimension

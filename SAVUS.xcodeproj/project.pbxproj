@@ -15,6 +15,8 @@
 		2B111EC7201D23DA00E2161A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B111EC5201D23DA00E2161A /* LaunchScreen.storyboard */; };
 		2B6E15BF201D399600109A5C /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E15BE201D399600109A5C /* Tweet.swift */; };
 		2B6E15C1201D39C200109A5C /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E15C0201D39C200109A5C /* TweetCell.swift */; };
+		2B6E15C4201D8C6200109A5C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E15C2201D8C6200109A5C /* TableViewCell.swift */; };
+		2B6E15C5201D8C6200109A5C /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B6E15C3201D8C6200109A5C /* TableViewCell.xib */; };
 		D22D720679DB54618C0662F5 /* Pods_SAVUS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C66BF2F7F3A87D1AD897F69 /* Pods_SAVUS.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		2B111EC8201D23DA00E2161A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B6E15BE201D399600109A5C /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		2B6E15C0201D39C200109A5C /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		2B6E15C2201D8C6200109A5C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2B6E15C3201D8C6200109A5C /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		64374E725D90FB24148F1FEA /* Pods-SAVUS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAVUS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAVUS/Pods-SAVUS.debug.xcconfig"; sourceTree = "<group>"; };
 		8C66BF2F7F3A87D1AD897F69 /* Pods_SAVUS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAVUS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3BE2EF3686A914173FF4E1 /* Pods-SAVUS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAVUS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAVUS/Pods-SAVUS.release.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 				2B111EC8201D23DA00E2161A /* Info.plist */,
 				2B6E15BE201D399600109A5C /* Tweet.swift */,
 				2B6E15C0201D39C200109A5C /* TweetCell.swift */,
+				2B6E15C2201D8C6200109A5C /* TableViewCell.swift */,
+				2B6E15C3201D8C6200109A5C /* TableViewCell.xib */,
 			);
 			path = SAVUS;
 			sourceTree = "<group>";
@@ -159,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B111EC7201D23DA00E2161A /* LaunchScreen.storyboard in Resources */,
+				2B6E15C5201D8C6200109A5C /* TableViewCell.xib in Resources */,
 				2B111EC4201D23DA00E2161A /* Assets.xcassets in Resources */,
 				2B111EC2201D23DA00E2161A /* Main.storyboard in Resources */,
 			);
@@ -232,6 +239,7 @@
 				2B111EBF201D23DA00E2161A /* SecondViewController.swift in Sources */,
 				2B6E15BF201D399600109A5C /* Tweet.swift in Sources */,
 				2B6E15C1201D39C200109A5C /* TweetCell.swift in Sources */,
+				2B6E15C4201D8C6200109A5C /* TableViewCell.swift in Sources */,
 				2B111EBB201D23DA00E2161A /* AppDelegate.swift in Sources */,
 				2B111EBD201D23DA00E2161A /* FirstViewController.swift in Sources */,
 			);
